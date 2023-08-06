@@ -1,0 +1,30 @@
+.navbar-toggler:focus {
+    box-shadow: none;
+  }
+  
+  .parallax {
+    background-image: url(../img/parallax.jpg);
+    background-repeat: no-repeat;
+    height: 40vh;/* viewport heigth(vh) */
+  
+    background-size: cover;/* Cubrir el fondo del div completamente, se puede usar contain en vez de cover, pero quedarian unas barras a los costados */ 
+    background-position: center; /* pone la imagen en el centro de todo */
+    background-attachment: fixed; /* esto hace que el fondo quede fijo mientras hacemos el scroll */
+
+    /* Centrar texto-items */
+    font-size: 30px;/* tamaño de letra */
+    color: white;/* color */
+    display: flex;/* nos permite mover el objeto o texto */
+    justify-content: center;/* direccion en la que queremos ubicarlos verticalmente */
+    align-items: center;/* direccion en la que queremos ubicarlos horizontalmente*/
+  }
+  
+  .card{
+    height: 100%;
+  }
+
+  /* Clase De Bootstrap */
+  .card-img-top{
+    height: 35vh;/* le damos la altura del viewport height*/
+    object-fit: contain; /* nos permite poner la imagen del mismo tamaño */
+  }

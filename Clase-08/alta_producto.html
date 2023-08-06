@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Css/alta-producto.css" />
+    <title>Empresa X</title>
+  </head>
+  <body>
+    <header>
+      <h1>Empresa X</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="listado_producto.html">Listado De Producto</a></li>
+      </ul>
+    </nav>
+    <form>
+      <main>
+        <h2>Alta De Producto</h2>
+        <fieldset>
+          <label>Nombre</label>
+          <input type="text" />
+          <label>Precio</label>
+          <input type="text" />
+        </fieldset>
+
+        <fieldset>
+          <label>Stock</label>
+          <input type="number" />
+          <label>Stock Minimo</label>
+          <input type="number" />
+        </fieldset>
+
+        <fieldset>
+          <input type="date" />
+          <input type="time" />
+        </fieldset>
+
+        <fieldset>
+          <img class="images" src="Css/images/mouse.webp" />
+          <input type="file" />
+        </fieldset>
+
+        <fieldset>
+          <label>Cuotas Sin Interes</label>
+          <select>
+            <option>-</option>
+            <option>1</option>
+            <option>3</option>
+            <option>6</option>
+            <option>9</option>
+            <option>12</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <label>Nacional</label>
+          <input type="radio" />
+          <label>Importado</label>
+          <input type="radio" />
+        </fieldset>
+
+        <fieldset>
+          <label>Envio Gratis</label>
+          <input type="checkbox" />
+          <label>Grantia</label>
+          <input type="checkbox" />
+        </fieldset>
+
+        <fieldset>
+          <textarea type="text" cols="80" rows="6">observaciones</textarea>
+        </fieldset>
+
+        <fieldset class="oscurecer">
+          <button type="submit" value="Guardar">Guardar</button>
+        </fieldset>
+      </main>
+    </form>
+  </body>
+</html>

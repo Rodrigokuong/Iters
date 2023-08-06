@@ -1,0 +1,14 @@
+.navbar-toggler:focus {
+    box-shadow: none;
+  }
+  
+  .parallax {
+    background-image: url(../img/parallax.jpg);
+    background-repeat: no-repeat;
+    height: 40vh;
+  
+    background-size: cover;/* La imagen de fondo cubre todo dentro de su div */ 
+    background-position: center; /* pone la imagen en el centro de todo */
+    background-attachment: fixed; /* esto hace que el fondo quede fijo mientras hacemos el scroll */
+  }
+  

@@ -1,0 +1,60 @@
+.navbar{
+   background-color: rgb(33, 39, 116);
+   display: block;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: white;
+}
+.logo{
+    height: 30px;
+}
+.search{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto{
+    width: 300px;
+    border-radius: 50px;
+}
+
+.boton{
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.parallax{
+    background-image: url(../img/textura_parallax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 20vh;
+
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top {
+    height: 38vh;
+    object-fit: contain;
+  }
+
+.col{
+    margin-top: 10px;
+}
+
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin: 30px;
+}
