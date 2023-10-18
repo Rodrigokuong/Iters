@@ -47,7 +47,7 @@ const promesaDelFetch = fetch(url);
 //console.log(promesaDelFetch);
 
 
-const url = 'https://jsonplaceholder.typicode.com/users';
+const url = 'https://jsonplaceholder.typicode.com/users'; //Endpoint
 
 fetch(url).then((response) => response.json())
 .then((showUsers))
